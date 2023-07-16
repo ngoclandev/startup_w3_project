@@ -16,6 +16,7 @@ body {
   font-family: "Raleway", sans-serif;
   min-height: 100vh;
   font-size: 15px;
+  max-width: 100%;
 }
 h2 {
   margin: 15px 0;
@@ -50,7 +51,9 @@ p {
 .container-section {
   padding: 128px 16px;
 }
-.flex-container {
+.flex-container,
+.team .flex-container,
+.work .flex-container {
   display: flex;
 }
 .flex-container.gap-16 {
@@ -107,7 +110,7 @@ header {
   position: relative;
   /* margin-top: var(--header-height); */
   min-height: 100vh;
-  background-image: url(/assets/img/hero_section.jpg);
+  background-image: url(../img/hero_section.jpg);
   background-position: center;
   background-size: cover;
   filter: grayscale(50%);

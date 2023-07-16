@@ -8,7 +8,9 @@
     }
   }
   /* OVERALL */
-  .flex-container {
+  .flex-container,
+  .team .flex-container,
+  .work .flex-container {
     display: block;
   }
   .describe .describe-content,
@@ -68,8 +70,13 @@
   }
 
   /* MEMBER */
+  .team .flex-container {
+    margin: auto;
+  }
   .member-card {
     margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .member-card-info {
     padding: 16px;
