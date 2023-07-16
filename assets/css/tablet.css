@@ -8,4 +8,8 @@
   .work .work-img {
     width: unset;
   }
+  .team .member-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
