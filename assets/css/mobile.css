@@ -1,0 +1,91 @@
+@media (max-width: 768px) {
+  @keyframes leftIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  /* OVERALL */
+  .flex-container {
+    display: block;
+  }
+  .describe .describe-content,
+  .describe .describe-img,
+  .describe a,
+  .achievement .flex-container .flex-item,
+  .skill .flex-item,
+  .contact-form .contact-submit,
+  .price .choose-card {
+    width: 100%;
+  }
+  /* NAVBAR */
+  .navbar .nav-link {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    height: 200vh;
+    width: 50%;
+    animation: leftIn ease 0.3s;
+  }
+  .navbar .nav-link a {
+    color: #fff;
+    display: block;
+    height: 48px;
+  }
+  .navbar .nav-link i {
+    display: none;
+  }
+  .navbar .menu-bar-mobile {
+    display: inline-block;
+  }
+  .navbar .nav-link.active {
+    display: block;
+  }
+  /* HERO */
+  .hero h1 {
+    font-size: 36px;
+    line-height: 1.6;
+  }
+  .hero p {
+    margin: 0;
+  }
+  .hero .hero-btn {
+    margin-top: 15px;
+  }
+  .hero a {
+    min-height: unset;
+    margin-top: 15px;
+    padding: 16px 24px;
+  }
+  /* DESCRIBE */
+  .describe a {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  /* MEMBER */
+  .member-card {
+    margin-bottom: 16px;
+  }
+  .member-card-info {
+    padding: 16px;
+  }
+  /* ACHIEVEMENT */
+  .achievement {
+    text-align: center;
+  }
+  /* WORK */
+  .work .work-img {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  /* PRICING */
+  .price .choose-card:not(:last-child) {
+    margin-bottom: 46px;
+  }
+  /* CONTACT */
+}

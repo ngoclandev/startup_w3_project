@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+  .team .flex-container,
+  .work .flex-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  .work .work-img {
+    width: unset;
+  }
+}
