@@ -12,4 +12,23 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .about-future-list {
+    gap: 0;
+    flex-wrap: wrap;
+  }
+
+  .about-feature-item {
+    width: 50%;
+  }
+
+  .price .flex-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .price .choose-card {
+    width: 60%;
+  }
 }
